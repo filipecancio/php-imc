@@ -1,0 +1,56 @@
+html{
+    background: #1a3106;
+    color: #dadada;
+}
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: #396e0e;
+    color: #dadada;
+}
+
+.imc-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transition: 1s;
+}
+
+.imc-container{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2a520a;
+    border-radius: 10px;
+    transition: 1s;
+}
+.imc-quest{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #dadada;
+    transition: 1s;
+}
+
+#imc-btn{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background: #1d3807;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    color: #dadada;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    transition: 1s;
+}
